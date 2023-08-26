@@ -1,7 +1,11 @@
 {
     "files.associations": {
         "unordered_map": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "xhash": "cpp",
+        "xstring": "cpp"
     },
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
