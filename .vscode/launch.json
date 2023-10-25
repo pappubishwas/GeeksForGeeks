@@ -2,6 +2,41 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "october10_nodes_at_distance",
+      "request": "launch",
+      "mainClass": "october10_nodes_at_distance",
+      "projectName": "GFG_9c7278f5"
+    },
+    {
+      "type": "java",
+      "name": "day33",
+      "request": "launch",
+      "mainClass": "day33",
+      "projectName": "GFG_9c7278f5"
+    },
+    {
+      "type": "java",
+      "name": "GFG",
+      "request": "launch",
+      "mainClass": "GFG",
+      "projectName": "GFG_9c7278f5"
+    },
+    {
+      "type": "java",
+      "name": "perfect_number",
+      "request": "launch",
+      "mainClass": "perfect_number",
+      "projectName": "GFG_9c7278f5"
+    },
+    {
+      "type": "java",
+      "name": "october24_palindrome_partitioning",
+      "request": "launch",
+      "mainClass": "october24_palindrome_partitioning",
+      "projectName": "GFG_9c7278f5"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

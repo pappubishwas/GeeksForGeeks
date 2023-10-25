@@ -16,7 +16,7 @@ class Node
     } 
 }
 
-class GFG
+class october10_nodes_at_distance
 {
     static Node buildTree(String str)
     {
@@ -82,7 +82,7 @@ class GFG
         {
             String s = br.readLine().trim();
             Node root = buildTree(s);
-            Solution T = new Solution();
+            soluti T = new soluti();
             int target = Integer.parseInt(br.readLine().trim());
             int k = Integer.parseInt(br.readLine().trim());
             ArrayList<Integer> res = new ArrayList<Integer>();
@@ -106,7 +106,7 @@ class GFG
 //     Node left, right;
 // }
 
-class Solution
+class soluti
 {
     public static ArrayList<Integer> KDistanceNodes(Node root, int target , int k)
     {
