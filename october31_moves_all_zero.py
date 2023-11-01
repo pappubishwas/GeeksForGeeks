@@ -1,27 +1,23 @@
-#User function Template for python3
-
+# User function Template for python3
 class Solution:
-	def pushZerosToEnd(self,arr, n):
-    
-	# code here
-    	i=0
-        j=0
-    	while i<n and j<n:
-    	    if arr[i]==0:
-    	        while j<n:
-    	            if arr[j]!=0:
-    	                arr[i]=arr[j]
-    	                arr[j]=0
-    	                break
-    	            j+=1  
-    	    i+=1
-    	    j+=1
+    def pushZerosToEnd(self, arr, n):
+        # code here
+        i = 0
+        j = 0
+        while i < n and j < n:
+            if arr[i] == 0:
+                while j < n:
+                    if arr[j] != 0:
+                        arr[i] = arr[j]
+                        arr[j] = 0
+                        break
+                    j += 1
+            i += 1
+            j += 1
 
 
-#{ 
- # Driver Code Starts
-#Initial Template for Python 3
-
+# Driver Code Starts
+# Initial Template for Python 3
 if __name__ == '__main__':
     tc = int(input())
     while tc > 0:
@@ -33,4 +29,4 @@ if __name__ == '__main__':
             print(x, end=" ")
         print()
         tc -= 1
-# } Driver Code Ends
+
